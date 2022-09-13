@@ -4,14 +4,8 @@
 
 
 
-from pickle import FALSE
 import pandas as pd
-import numpy as np
 
-import matplotlib.pyplot as plt
-
-import seaborn as sns
-import joblib
 import csv
 
 path = 'G:\\Code_K\\AI_projects_all\\Altay_krai\\'
@@ -396,18 +390,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_
 
 from sklearn.ensemble import RandomForestClassifier
 
-#0.76
-#11
-
-'''
-model=RandomForestClassifier(n_estimators=600,
-               max_features = 50,
-              max_depth = 52,
-               min_samples_split=2,
-               min_samples_leaf=3,
-               random_state=4
-               )
-'''
 
 import lightgbm as lgb
 
